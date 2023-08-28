@@ -1,0 +1,135 @@
+h1 {
+    color: rgb(255, 30, 0);
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: royalblue;
+    font-family: verdana;
+}
+
+li {
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: cursive;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    /* Menengahkan gambar */
+    display: block;
+    margin: 0px auto;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+/*selector id*/
+#judul {
+    color: orange;
+}
+
+/*selector class*/
+.tengah {
+    align-self: center;
+    color: blue;
+}
+
+
+h2, h3, h4 {
+    color: midnightblue;
+}
+
+
+h2.tengah {
+    color: pink;
+}
+/* Gaya untuk tautan hyperlink */
+a {
+    color: rgb(0, 0, 233);
+    text-decoration: underline;
+}
+
+/* Gaya untuk tombol dengan kelas .button */
+.button {
+    padding: 10px 20px;
+    background-color: #082538;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Gaya saat tombol .button dihover */
+.button:hover {
+    background-color: #25ff30;
+}
+/* Gaya untuk tautan hyperlink belum dikunjungi */
+a:link {
+    color: midnightblue;
+}
+
+/* Gaya untuk tautan hyperlink yang sudah dikunjungi */
+a:visited {
+    color: green;
+}
+
+/* Gaya saat tautan dihover */
+a:hover {
+    color: orange;
+}
+
+/* Gaya saat tautan sedang diklik */
+a:active {
+    color: darkcyan;
+}
+/* Gaya untuk tombol dengan kelas .button */
+.button {
+    border-radius: 5px;
+    border: none;
+    background-color: midnightblue;
+    color: #FFFF;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Gaya saat tombol .button dihover */
+.button:hover {
+    background-color: orange;
+}
+
+/* Gaya saat tombol .button sedang diklik */
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+/* Gaya untuk sel header kolom */
+thead th {
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Gaya untuk sel data */
+tbody td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Gaya untuk sel data di baris ganjil */
+tbody tr:nth-child(odd) td {
+    background-color: #f2f2f2;
+}
+
+/* Gaya saat tautan dihover */
+tbody tr:hover td {
+    background-color: #c6c6c6;
+}
